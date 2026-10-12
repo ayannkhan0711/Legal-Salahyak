@@ -1,0 +1,16 @@
+{
+  "name": "legalsahayak-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LegalSahayak – RAG-based Indian legal assistant. Monorepo root.",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "ingest": "npm run ingest --prefix server",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "act": "Consumer Protection Act, 2019",
+    "section": "Section 2(7)",
+    "chapter": "Chapter I - Preliminary",
+    "year": 2019,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/15256",
+    "text": "Section 2(7): Consumer definition. A consumer is any person who buys any goods or hires/avails of any services for a consideration which has been paid or promised, including offline and online transactions through electronic means or by teleshopping or direct selling or multi-level marketing. It explicitly excludes a person who obtains goods for resale or for any commercial purpose."
+  },
+  {
+    "act": "Consumer Protection Act, 2019",
+    "section": "Section 34 & 35",
+    "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
+    "year": 2019,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/15256",
+    "text": "Section 34 & 35: Jurisdiction of District Commission and filing of complaints. The District Consumer Disputes Redressal Commission has jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed fifty lakh rupees (revised limit). A complaint may be filed electronically (e-daakhil portal) and in the District Commission within the local limits of whose jurisdiction the complainant resides or personally works for gain."
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section": "Section 43A & 66C",
+    "chapter": "Chapter IX & XI - Penalties and Offences",
+    "year": 2000,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "text": "Section 43A & Section 66C: Compensation for failure to protect sensitive personal data and punishment for identity theft. Under Section 66C, whoever, fraudulently or dishonestly make use of the electronic signature, password or any other unique identification feature of any other person, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh."
+  },
+  {
+    "act": "Information Technology Act, 2000",
+    "section": "Section 66D",
+    "chapter": "Chapter XI - Offences",
+    "year": 2000,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "text": "Section 66D: Punishment for cheating by personation by using computer resource. Whoever, by means of any communication device or computer resource, cheats by personation, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees. This applies to online UPI scams, phishing, fake customer care calls, and fraudulent online marketplace schemes."
+  },
+  {
+    "act": "Negotiable Instruments Act, 1881",
+    "section": "Section 138",
+    "chapter": "Chapter XVII - Of Penalties in Case of Dishonour of Certain Cheques",
+    "year": 1881,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/2189",
+    "text": "Section 138: Dishonour of cheque for insufficiency, etc., of funds in the account. Where any cheque drawn by a person on an account maintained by him with a banker for payment of any amount of money to another person from out of that account for the discharge, in whole or in part, of any debt or other liability, is returned by the bank unpaid, either because of insufficiency of funds or exceeding arrangements, such person shall be deemed to have committed an offence and shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both. Mandatory requirements: cheque presented within 3 months, statutory legal notice served within 30 days of receiving bank memo, failure of drawer to pay within 15 days of receipt of notice, complaint filed within 30 days thereafter."
+  }
+]
