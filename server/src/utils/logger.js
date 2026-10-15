@@ -30,23 +30,21 @@ const transport =
       }
     : undefined;
 
-export const logger = pino(
-  {
-    level: env.LOG_LEVEL,
-    // Apply PII masking to the msg field
-    serializers: {
-      req: pino.stdSerializers.req,
-      res: pino.stdSerializers.res,
-      err: pino.stdSerializers.err,
-    },
-    hooks: {
-      logMethod(inputArgs, method) {
-        if (inputArgs.length > 0) {
-          inputArgs[inputArgs.length - 1] = maskPII(inputArgs[inputArgs.length - 1]);
-        }
-        return method.apply(this, inputArgs);
-      },
+export const logger = pino({
+  level: env.LOG_LEVEL,
+  ...(transport ? { transport } : {}),
+  // Apply PII masking to the msg field
+  serializers: {
+    req: pino.stdSerializers.req,
+    res: pino.stdSerializers.res,
+    err: pino.stdSerializers.err,
+  },
+  hooks: {
+    logMethod(inputArgs, method) {
+      if (inputArgs.length > 0) {
+        inputArgs[inputArgs.length - 1] = maskPII(inputArgs[inputArgs.length - 1]);
+      }
+      return method.apply(this, inputArgs);
     },
   },
-  transport,
-);
+});

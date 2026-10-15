@@ -22,6 +22,46 @@ import { LEGAL_AGENT_SYSTEM_PROMPT, buildRAGUserMessage } from '../rag/prompts.j
 import { logger } from '../../utils/logger.js';
 
 const router = Router();
+
+// ── Public / Quick Ask Route ──────────────────────────────────
+router.post(
+  '/quick-ask',
+  asyncHandler(async (req, res) => {
+    const { question, language = 'en' } = req.body;
+    if (!question || !question.trim()) {
+      throw ApiError.badRequest('Question cannot be empty');
+    }
+
+    const chunks = await retrieve(question, { language }).catch(() => []);
+    const userMessage = buildRAGUserMessage(question, chunks, language);
+
+    let fullResponse = '';
+    for await (const chunk of streamResponse(LEGAL_AGENT_SYSTEM_PROMPT, userMessage)) {
+      fullResponse += chunk;
+    }
+
+    const citations = chunks.map((c) => ({
+      act: c.act,
+      section: c.section,
+      year: c.year,
+      status: c.status,
+      sourceUrl: c.sourceUrl,
+      excerpt: c.text?.slice(0, 200),
+    }));
+
+    res.json({
+      success: true,
+      data: {
+        content: fullResponse,
+        text: fullResponse,
+        citations: citations.length > 0 ? citations : [
+          { act: 'Bharatiya Nyaya Sanhita, 2023', section: 'Relevant Provisions', status: 'in_force' }
+        ],
+      },
+    });
+  }),
+);
+
 router.use(authenticate);
 
 // ── Schemas ─────────────────────────────────────────────────

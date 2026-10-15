@@ -57,55 +57,71 @@ async function* openaiStream(systemPrompt, userMessage, history = []) {
   }
 }
 
+import { analyzeDocumentContent } from '../documents/documentAnalyzer.js';
+
 async function* mockIndianLawStream(systemPrompt, userMessage) {
   // If JSON is requested (e.g., document classification or JSON analysis)
   if (systemPrompt.includes('JSON') || userMessage.includes('JSON')) {
-    const mockJson = JSON.stringify({
-      documentType: 'legal_notice',
-      confidence: 0.92,
-      inOneLine: 'This is a formal legal demand notice issued under Section 138 of the Negotiable Instruments Act or Civil Procedure.',
-      whatItSays: [
-        'Demands settlement of outstanding claim within 15 days of notice receipt.',
-        'Alleges dishonour or breach of commitment between parties.',
-        'Warns of impending civil and criminal proceedings if unresolved.'
-      ],
-      whatToDo: [
-        'Collect all transaction receipts, bank memos, and communications.',
-        'Consult an advocate to draft a formal reply within 15 days.',
-        'Do not ignore or admit liability without legal advice.'
-      ],
-      yourRights: [
-        'Right to dispute incorrect calculations and unfair terms.',
-        'Right to representation through an advocate of your choice under Article 22(1).'
-      ],
-      risksOrRedFlags: [
-        'Failure to reply within statutory period may be construed as implied admission in court.',
-        'Potential criminal complaint under Section 138 NI Act or Section 318 BNS.'
-      ],
-      suggestedNextStep: 'Schedule a 15-minute consultation with a verified advocate to review and respond before the 15-day deadline.'
-    }, null, 2);
+    // Extract document content if wrapped in delimiters
+    let docContent = userMessage;
+    const match = userMessage.match(/<<<DOCUMENT_START>>>([\s\S]*?)<<<DOCUMENT_END>>>/);
+    if (match && match[1]) {
+      docContent = match[1];
+    }
 
-    yield mockJson;
+    const dynamicAnalysis = analyzeDocumentContent(docContent);
+
+    // If only classification is requested
+    if (systemPrompt.includes('classifier') || userMessage.includes('Classify this document')) {
+      yield JSON.stringify({
+        type: dynamicAnalysis.documentType,
+        confidence: dynamicAnalysis.confidence || 0.92,
+        parties: [],
+        language: 'en',
+      });
+      return;
+    }
+
+    // Full structured document analysis
+    yield JSON.stringify(dynamicAnalysis, null, 2);
     return;
   }
 
-  // Conversational response
+  // Conversational response tailored to user's question
+  const lowerMsg = userMessage.toLowerCase();
+  let topicHeading = 'Applicable Indian Legal Provisions';
+  let statuteNote = 'Under the Bharatiya Nyaya Sanhita (BNS) 2023 and Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023 (which replaced IPC and CrPC in July 2024), this matter is governed by statutory timelines and procedural safeguards.';
+
+  if (lowerMsg.includes('cheque') || lowerMsg.includes('138')) {
+    topicHeading = 'Section 138 Negotiable Instruments Act (Cheque Dishonour)';
+    statuteNote = 'Cheque bounce requires service of statutory notice within 30 days of receiving the bank memo, granting 15 days to pay before a complaint can be filed.';
+  } else if (lowerMsg.includes('rent') || lowerMsg.includes('tenant') || lowerMsg.includes('lease')) {
+    topicHeading = 'Tenancy Rights & Transfer of Property Act';
+    statuteNote = 'Governed by the Transfer of Property Act, 1882 (Section 106 & 108) and Model Tenancy Act rules requiring mandatory written notice and protection of security deposit.';
+  } else if (lowerMsg.includes('police') || lowerMsg.includes('fir') || lowerMsg.includes('summons')) {
+    topicHeading = 'BNSS Section 35 & Constitutional Protections';
+    statuteNote = 'Under Section 35(3) BNSS and Article 20(3) of the Constitution, compliance with notice prevents arbitrary arrest and you have the right to legal counsel under Section 37 BNSS.';
+  } else if (lowerMsg.includes('cyber') || lowerMsg.includes('online fraud')) {
+    topicHeading = 'Cyber Crime Redressal & Information Technology Act';
+    statuteNote = 'Report financial frauds immediately to 1930 or cybercrime.gov.in within the golden hour to freeze fraudulent beneficiary accounts under Section 66D IT Act.';
+  }
+
   const responseParts = [
-    'Based on the Indian legal framework:\n\n',
-    '**1. Applicable Provisions:**\n',
-    'Under the Bharatiya Nyaya Sanhita (BNS) 2023 and the Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023 (which replaced IPC and CrPC effective 1 July 2024), your situation is governed by procedural fairness and statutory timelines.\n\n',
-    '**2. Your Rights & Options:**\n',
-    '• You have the right to seek legal representation and examine all documentation.\n',
-    '• For non-cognizable disputes, civil remedies or consumer forums (e-daakhil) provide rapid redressal.\n',
-    '• In matters involving financial transactions, check if statutory notices were served within prescribed time limits.\n\n',
-    '**3. Recommended Next Steps:**\n',
-    'Preserve all digital evidence, messages, and bank records. You may also connect with one of our verified advocates on the platform for a confidential consultation.\n\n',
-    '*(Disclaimer: This AI response provides general legal information grounded in Indian statutes and does not constitute formal attorney-client advice.)*'
+    `Based on the Indian legal framework regarding your inquiry:\n\n`,
+    `**1. ${topicHeading}:**\n`,
+    `${statuteNote}\n\n`,
+    `**2. Your Rights & Safeguards:**\n`,
+    `• You have the right to consult a licensed advocate and review all documentation.\n`,
+    `• Statutory notices must strictly adhere to limitation periods prescribed under Indian law.\n`,
+    `• In civil or consumer matters, remedies such as e-daakhil or mediation provide fast resolution.\n\n`,
+    `**3. Recommended Action:**\n`,
+    `Preserve all transaction receipts, agreements, notices, and communications. You can also connect with a verified advocate on LegalSahayak for a one-on-one consultation.\n\n`,
+    `*(Disclaimer: This AI response provides general legal information grounded in Indian statutes and does not constitute formal attorney-client advice.)*`
   ];
 
   for (const part of responseParts) {
     yield part;
-    await new Promise((r) => setTimeout(r, 40));
+    await new Promise((r) => setTimeout(r, 30));
   }
 }
 
