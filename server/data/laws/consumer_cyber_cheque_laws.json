@@ -1,52 +1,92 @@
 [
   {
-    "act": "Consumer Protection Act, 2019",
-    "section": "Section 2(7)",
-    "chapter": "Chapter I - Preliminary",
-    "year": 2019,
+    "act": "Right to Information Act, 2005",
+    "section": "Section 7(1)",
+    "chapter": "Chapter II - Right to Information and Obligations of Public Authorities",
+    "year": 2005,
     "status": "in_force",
     "language": "en",
-    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/15256",
-    "text": "Section 2(7): Consumer definition. A consumer is any person who buys any goods or hires/avails of any services for a consideration which has been paid or promised, including offline and online transactions through electronic means or by teleshopping or direct selling or multi-level marketing. It explicitly excludes a person who obtains goods for resale or for any commercial purpose."
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 7(1): Disposal of request. A Public Information Officer must decide on an information request and provide the information within thirty days of receiving the request. Where the information concerns the life or liberty of a person, it must be provided within forty-eight hours. If the request is refused, the PIO must give reasons and the name and designation of the officer responsible."
   },
   {
-    "act": "Consumer Protection Act, 2019",
-    "section": "Section 34 & 35",
-    "chapter": "Chapter IV - Consumer Disputes Redressal Commission",
-    "year": 2019,
+    "act": "Right to Information Act, 2005",
+    "section": "Section 19(1) and 19(3)",
+    "chapter": "Chapter V - Miscellaneous",
+    "year": 2005,
     "status": "in_force",
     "language": "en",
-    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/15256",
-    "text": "Section 34 & 35: Jurisdiction of District Commission and filing of complaints. The District Consumer Disputes Redressal Commission has jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed fifty lakh rupees (revised limit). A complaint may be filed electronically (e-daakhil portal) and in the District Commission within the local limits of whose jurisdiction the complainant resides or personally works for gain."
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 19(1) and 19(3): Appeals. A person who does not receive a decision within the time limit, or who is aggrieved by a decision, may file a first appeal to an officer senior to the PIO within thirty days. A second appeal may then be made to the State or Central Information Commission within ninety days of the first appellate decision or its due date."
   },
   {
-    "act": "Information Technology Act, 2000",
-    "section": "Section 43A & 66C",
-    "chapter": "Chapter IX & XI - Penalties and Offences",
-    "year": 2000,
+    "act": "Protection of Women from Domestic Violence Act, 2005",
+    "section": "Section 12",
+    "chapter": "Chapter IV - Procedure for Obtaining Orders of Reliefs",
+    "year": 2005,
     "status": "in_force",
     "language": "en",
-    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1999",
-    "text": "Section 43A & Section 66C: Compensation for failure to protect sensitive personal data and punishment for identity theft. Under Section 66C, whoever, fraudulently or dishonestly make use of the electronic signature, password or any other unique identification feature of any other person, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to rupees one lakh."
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 12: Application to Magistrate. An aggrieved woman, or any person on her behalf, may present an application to the Magistrate seeking one or more reliefs under this Act. The Magistrate may pass orders including protection orders, residence orders, monetary relief, custody orders, and compensation for injuries or mental distress. The aggrieved person may also approach a Protection Officer or a service provider, and no fee is payable for filing."
   },
   {
-    "act": "Information Technology Act, 2000",
-    "section": "Section 66D",
-    "chapter": "Chapter XI - Offences",
-    "year": 2000,
+    "act": "Transfer of Property Act, 1882",
+    "section": "Section 106",
+    "chapter": "Chapter V - Leases of Immoveable Property",
+    "year": 1882,
     "status": "in_force",
     "language": "en",
-    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/1999",
-    "text": "Section 66D: Punishment for cheating by personation by using computer resource. Whoever, by means of any communication device or computer resource, cheats by personation, shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine which may extend to one lakh rupees. This applies to online UPI scams, phishing, fake customer care calls, and fraudulent online marketplace schemes."
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 106: Duration of certain leases in absence of written contract. Where no written lease exists, a lease for agricultural or manufacturing purposes is deemed to be from year to year. A lease for any other purpose, such as residential or commercial tenancy, is deemed to be month to month. A month-to-month tenancy may be terminated by either party by fifteen days' notice expiring with the end of a month. Parties may agree to different terms in a written contract."
   },
   {
-    "act": "Negotiable Instruments Act, 1881",
-    "section": "Section 138",
-    "chapter": "Chapter XVII - Of Penalties in Case of Dishonour of Certain Cheques",
-    "year": 1881,
+    "act": "Indian Contract Act, 1872",
+    "section": "Section 74",
+    "chapter": "Chapter VI - Consequences of Breach of Contract",
+    "year": 1872,
     "status": "in_force",
     "language": "en",
-    "sourceUrl": "https://www.indiacode.nic.in/handle/123456789/2189",
-    "text": "Section 138: Dishonour of cheque for insufficiency, etc., of funds in the account. Where any cheque drawn by a person on an account maintained by him with a banker for payment of any amount of money to another person from out of that account for the discharge, in whole or in part, of any debt or other liability, is returned by the bank unpaid, either because of insufficiency of funds or exceeding arrangements, such person shall be deemed to have committed an offence and shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both. Mandatory requirements: cheque presented within 3 months, statutory legal notice served within 30 days of receiving bank memo, failure of drawer to pay within 15 days of receipt of notice, complaint filed within 30 days thereafter."
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 74: Compensation for breach of contract where penalty stipulated. When a contract names a sum payable on breach, or contains a penalty clause, the injured party may recover only reasonable compensation not exceeding the named amount. Courts may award reasonable compensation even where actual loss cannot be proved. This limits excessive penalty clauses in agreements."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 303",
+    "chapter": "Chapter XVII - Offences Against Property",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 303: Theft. Whoever dishonestly moves any movable property out of the possession of any person without that person's consent, with the intention of taking it, commits theft. The offence is punishable with imprisonment up to three years, or fine, or both, for a first conviction. This section replaced Section 378 and 379 of the Indian Penal Code, 1860, from 1 July 2024."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 318",
+    "chapter": "Chapter XVII - Offences Against Property",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Section 318: Cheating. Whoever deceives any person, fraudulently or dishonestly inducing that person to deliver property or to consent to retention of property, or to do or omit something he would not otherwise do, commits cheating. Cheating and dishonestly inducing delivery of property is punishable with imprisonment up to seven years and fine. This section replaced Sections 415 and 420 of the Indian Penal Code, 1860, from 1 July 2024."
+  },
+  {
+    "act": "Constitution of India",
+    "section": "Article 21",
+    "chapter": "Part III - Fundamental Rights",
+    "year": 1950,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Article 21: Protection of life and personal liberty. No person shall be deprived of his life or personal liberty except according to procedure established by law. The Supreme Court has interpreted this right to include the right to live with human dignity, the right to privacy, and the right to a speedy trial."
+  },
+  {
+    "act": "Constitution of India",
+    "section": "Articles 32 and 226",
+    "chapter": "Part III and Part V - Remedies for Enforcement of Rights",
+    "year": 1950,
+    "status": "in_force",
+    "language": "en",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Articles 32 and 226: Right to constitutional remedies. Article 32 allows any person to approach the Supreme Court directly for enforcement of Fundamental Rights. Article 226 allows High Courts to issue writs for the enforcement of Fundamental Rights and for any other purpose. These are the constitutional routes for seeking relief when a fundamental right is violated."
   }
 ]

@@ -6,8 +6,42 @@
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
-    "text": "Section 35: When police may arrest without warrant. (Corresponds to Section 41 of CrPC). Police officer may arrest without warrant any person who commits cognizable offence in presence of police officer, or against whom credible information has been received of offence punishable with imprisonment up to seven years subject to conditions of necessity (preventing further offense, tampering with evidence, securing presence). A prior notice of appearance under Section 35(3) (formerly CrPC 41A) is mandatory unless recorded reasons exist. Prior sanction of officer not below Deputy Superintendent of Police is required for offenses punishable with less than 3 years if accused is infirm or elderly above sixty years."
+    "text": "Section 35: When police may arrest without warrant. Summary: A police officer may arrest a person without a warrant in two broad situations. The first is where a cognizable offence is committed in the officer's presence. The second is where credible information has been received that the person committed an offence punishable with imprisonment of up to seven years, but only if the officer has reason to believe that arrest is necessary. Necessity can include preventing further offences, stopping tampering with evidence, inducing or threatening witnesses, or ensuring the person's attendance in court. Before arresting in the second situation, the officer must first issue a notice of appearance, unless recorded reasons make that impractical. Where the offence is punishable with less than three years and the accused is infirm or above sixty years old, arrest generally requires prior permission from an officer not below the rank of Deputy Superintendent of Police."
+  },
+  {
+    "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "section": "Section 35(3) and 35(7)",
+    "chapter": "Chapter V - Arrest of Persons",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
+    "text": "Section 35(3) and 35(7): Notice of appearance and protections for vulnerable persons. Summary: Where police decide not to arrest in the situations described in Section 35, they must serve a notice directing the person to appear before the investigating officer and cooperate with the investigation. A person who complies with the notice and continues to cooperate should not be arrested unless the officer records reasons. For persons who are infirm or above sixty years old, and accused of an offence punishable with less than three years, the rule described in Section 35 applies, requiring prior permission before arrest."
+  },
+  {
+    "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "section": "Section 58",
+    "chapter": "Chapter VI - Arrest of Persons (Procedure)",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
+    "text": "Section 58: Person arrested not to be detained more than twenty-four hours. Summary: A police officer must not keep an arrested person in custody beyond twenty-four hours without taking the person before a Magistrate, excluding the time needed for the journey from the place of arrest to the Magistrate's court. Detention beyond this limit without judicial authority is unlawful. This protects against prolonged custody at the police station before a judge has reviewed the arrest."
+  },
+  {
+    "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+    "section": "Section 187",
+    "chapter": "Chapter XIV - Conditions Requisite for Initiation of Proceedings (Investigation)",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
+    "text": "Section 187: Procedure when investigation cannot be completed in twenty-four hours (remand). Summary: If an investigation cannot be completed within twenty-four hours, the arrested person may be detained in custody by Magistrate order. Remand to police custody or judicial custody is limited in total duration. If the investigation is not completed within sixty days for offences punishable with less than ten years, or ninety days for offences punishable with ten years or more or with death or life imprisonment, the accused becomes entitled to default bail on furnishing bail. The accused must be produced before the Magistrate during the period of remand."
   },
   {
     "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
@@ -16,8 +50,9 @@
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
-    "text": "Section 480: When bail may be taken in case of non-bailable offence. (Corresponds to Section 437 of CrPC). When any person accused of, or suspected of, the commission of any non-bailable offence is arrested or detained without warrant by an officer in charge of a police station or appears or is brought before a Court, he may be released on bail, but he shall not be so released if there appear reasonable grounds for believing that he has been guilty of an offence punishable with death or imprisonment for life; provided that the Court may direct that a person under sixteen years, or a woman, or sick or infirm person be released on bail."
+    "text": "Section 480: Bail in non-bailable offences. Summary: A person accused of or suspected of a non-bailable offence, once arrested or brought before a court, may be released on bail. Bail is refused if there are reasonable grounds to believe the person is guilty of an offence punishable with death or life imprisonment. The court may still release a person under sixteen years of age, a woman, or a sick or infirm person, even where the offence is non-bailable and the restriction would otherwise apply. The court weighs the nature of the offence, the risk of fleeing, and the risk of tampering with evidence or influencing witnesses."
   },
   {
     "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
@@ -26,17 +61,41 @@
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250883_english_01042024.pdf",
-    "text": "Section 482: Direction for grant of bail to person apprehending arrest (Anticipatory Bail). (Corresponds to Section 438 of CrPC). Where any person has reason to believe that he may be arrested on accusation of having committed a non-bailable offence, he may apply to the High Court or the Court of Session for a direction under this section that in the event of such arrest he shall be released on bail. The court considers the nature and gravity of accusation, criminal antecedents, and possibility of fleeing from justice."
+    "text": "Section 482: Anticipatory bail. Summary: A person who believes they may be arrested for a non-bailable offence can apply to the High Court or the Court of Session for a direction that, if arrested, they be released on bail. The court considers the nature and gravity of the accusation, the applicant's criminal history, the possibility of fleeing from justice, and whether the applicant might tamper with evidence or threaten witnesses. The court may attach conditions such as requiring the applicant to cooperate with the investigation, to remain available for questioning, and not to leave the country without permission."
   },
   {
-    "act": "Code of Criminal Procedure",
-    "section": "Section 438 (Repealed/Replaced)",
-    "chapter": "Chapter XXXIII",
+    "act": "Code of Criminal Procedure, 1973",
+    "section": "Section 41 and 41A",
+    "chapter": "Chapter V - Arrest of Persons",
     "year": 1973,
     "status": "repealed",
     "language": "en",
+    "commentary": true,
     "sourceUrl": "https://www.indiacode.nic.in",
-    "text": "Section 438 (CrPC): Direction for grant of bail to person apprehending arrest. NOTE: The Code of Criminal Procedure, 1973 has been replaced by the Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023 effective 1st July 2024. The corresponding anticipatory bail provision is now governed by Section 482 of BNSS, 2023."
+    "text": "Commentary on CrPC Sections 41 and 41A: The CrPC was replaced by the Bharatiya Nagarik Suraksha Sanhita, 2023, effective 1 July 2024. The arrest powers formerly in Section 41 and the notice of appearance formerly in Section 41A now correspond to Section 35 of the BNSS. This is a cross-reference for lawyers and users reading older judgments, not operative law."
+  },
+  {
+    "act": "Code of Criminal Procedure, 1973",
+    "section": "Section 437 and 438",
+    "chapter": "Chapter XXXIII - Bail",
+    "year": 1973,
+    "status": "repealed",
+    "language": "en",
+    "commentary": true,
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Commentary on CrPC Sections 437 and 438: Bail in non-bailable offences (formerly Section 437) now corresponds to Section 480 of the BNSS. Anticipatory bail (formerly Section 438) now corresponds to Section 482 of the BNSS. Judgments decided under the CrPC on these sections remain persuasive for interpreting the corresponding BNSS provisions, but the BNSS text governs for offences committed on or after 1 July 2024."
+  },
+  {
+    "act": "Code of Criminal Procedure, 1973",
+    "section": "Section 167",
+    "chapter": "Chapter XII - Investigation",
+    "year": 1973,
+    "status": "repealed",
+    "language": "en",
+    "commentary": true,
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "text": "Commentary on CrPC Section 167: The remand and default bail rules formerly in Section 167 now correspond to Section 187 of the BNSS. Case law on default bail under Section 167 is still frequently cited, and it is useful background for the BNSS 187 provisions, but users should be told that the BNSS text now governs."
   }
 ]

@@ -1,62 +1,134 @@
 [
   {
     "act": "Bharatiya Nyaya Sanhita, 2023",
-    "section": "Section 103",
-    "chapter": "Chapter VI - Of Offences Affecting the Human Body",
-    "year": 2023,
-    "status": "in_force",
-    "language": "en",
-    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
-    "text": "Section 103: Punishment for murder. (1) Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. (Corresponds to Section 302 of Indian Penal Code, 1860). (2) When a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other similar ground, each person of such group shall be punished with death or with imprisonment for life, and shall also be liable to fine (Mob Lynching provision)."
-  },
-  {
-    "act": "Bharatiya Nyaya Sanhita, 2023",
     "section": "Section 63",
     "chapter": "Chapter V - Of Offences Against Women and Children",
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
-    "text": "Section 63: Rape defined. Corresponds to Section 375 of Indian Penal Code. Punishable under Section 64 with rigorous imprisonment of not less than ten years, which may extend to imprisonment for life, and liability to fine. Under BNS, provisions concerning rape of minors have mandatory minimum twenty years or life imprisonment or death penalty."
+    "text": "Section 63: Rape. Summary: Defines rape as sexual intercourse or sexual acts committed against a woman in specified circumstances, such as against her will, without her consent, through coercion, through fraudulent inducement, or when she is unable to understand the nature of consent. The definition is gender-specific to women, and the specified circumstances are set out in the statute."
   },
   {
     "act": "Bharatiya Nyaya Sanhita, 2023",
-    "section": "Section 316",
+    "section": "Section 64",
+    "chapter": "Chapter V - Of Offences Against Women and Children",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Section 64: Punishment for rape. Summary: Punishes rape with rigorous imprisonment of not less than ten years, which may extend to imprisonment for life, and also liable to fine. The court may impose a fine that is to be paid to the victim as compensation."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 65",
+    "chapter": "Chapter V - Of Offences Against Women and Children",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Section 65: Punishment for rape of a woman under sixteen years of age. Summary: Provides a harsher punishment for rape of a woman under sixteen years of age, with rigorous imprisonment of not less than twenty years, which may extend to imprisonment for life, or death, and also liable to fine. Verify the exact sub-section structure against the official text before relying on it."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 103(1)",
+    "chapter": "Chapter VI - Of Offences Affecting the Human Body",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Section 103(1): Punishment for murder. Summary: Whoever commits murder is punishable with death or imprisonment for life, and is also liable to fine."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 103(2)",
+    "chapter": "Chapter VI - Of Offences Affecting the Human Body",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": false,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Section 103(2): Murder by group on specified grounds. Summary: When a group of five or more persons acting in concert commits murder on grounds such as race, caste, community, sex, place of birth, language, personal belief, or any similar ground, each member of the group is punishable with death or imprisonment for life, and is also liable to fine."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 316(2)",
     "chapter": "Chapter XVII - Of Offences Against Property",
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
-    "text": "Section 316: Criminal breach of trust. (Corresponds to Section 405/406 of IPC). Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, commits criminal breach of trust. Punishable with imprisonment up to five years, or fine, or both."
+    "text": "Section 316: Criminal breach of trust. Summary: A person entrusted with property, or with dominion over property, commits criminal breach of trust if they dishonestly misappropriate it, convert it to their own use, or dispose of it in violation of a legal direction governing how the trust must be discharged. Punishment is imprisonment of up to five years, or fine, or both."
   },
   {
     "act": "Bharatiya Nyaya Sanhita, 2023",
-    "section": "Section 318",
+    "section": "Section 318(4)",
     "chapter": "Chapter XVII - Of Offences Against Property",
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
-    "text": "Section 318: Cheating. (Corresponds to Section 415 and Section 420 of IPC). (1) Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person... commits cheating. (4) Whoever cheats and thereby dishonestly induces the person deceived to deliver any property shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine (formerly IPC 420)."
+    "text": "Section 318: Cheating and dishonest inducement to deliver property. Summary: A person commits cheating by deceiving another and thereby dishonestly inducing that person to deliver property. Cheating that dishonestly induces delivery of property is punishable with imprisonment of up to seven years, and also liable to fine."
   },
   {
     "act": "Bharatiya Nyaya Sanhita, 2023",
-    "section": "Section 351",
+    "section": "Section 351(1)",
     "chapter": "Chapter XIX - Of Criminal Intimidation, Insult and Annoyance",
     "year": 2023,
     "status": "in_force",
     "language": "en",
+    "commentary": false,
     "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
-    "text": "Section 351: Criminal intimidation. (Corresponds to Section 503 and Section 506 of IPC). Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, with intent to cause alarm to that person, commits criminal intimidation. Punishable with imprisonment up to two years, or fine, or both; if threat is to cause death or grievous hurt, imprisonment up to seven years."
+    "text": "Section 351: Criminal intimidation. Summary: A person commits criminal intimidation by threatening another with injury to their person, reputation, or property, or to someone they are interested in, with intent to cause alarm. Punishment is imprisonment of up to two years, or fine, or both. Where the threat is to cause death or grievous hurt, the punishment is imprisonment of up to seven years."
   },
   {
-    "act": "Indian Penal Code",
-    "section": "Section 420 (Repealed/Replaced)",
-    "chapter": "Chapter XVII",
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 103 (cross-reference)",
+    "chapter": "Chapter VI - Of Offences Affecting the Human Body",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": true,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Commentary on BNS Section 103: Section 103(1) corresponds to Section 302 of the Indian Penal Code, 1860. The group-based provision in Section 103(2) is widely referred to as the mob lynching provision. This is a cross-reference for lawyers and users reading older judgments, not operative text."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 316 and 318 (cross-references)",
+    "chapter": "Chapter XVII - Of Offences Against Property",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": true,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Commentary on BNS Sections 316 and 318: Criminal breach of trust (Section 316) corresponds to Sections 405 and 406 of the Indian Penal Code, 1860. Cheating (Section 318) corresponds to Sections 415 and 420 of the IPC. Judgments decided under the IPC on these offences remain persuasive but the BNS text governs offences committed on or after 1 July 2024."
+  },
+  {
+    "act": "Bharatiya Nyaya Sanhita, 2023",
+    "section": "Section 351 (cross-reference)",
+    "chapter": "Chapter XIX - Of Criminal Intimidation, Insult and Annoyance",
+    "year": 2023,
+    "status": "in_force",
+    "language": "en",
+    "commentary": true,
+    "sourceUrl": "https://www.mha.gov.in/sites/default/files/250882_english_01042024.pdf",
+    "text": "Commentary on BNS Section 351: Criminal intimidation corresponds to Sections 503 and 506 of the Indian Penal Code, 1860. This is a cross-reference, not operative text."
+  },
+  {
+    "act": "Indian Penal Code, 1860",
+    "section": "Section 420 (repealed)",
+    "chapter": "Chapter XVII - Of Offences Against Property",
     "year": 1860,
     "status": "repealed",
     "language": "en",
+    "commentary": true,
     "sourceUrl": "https://www.indiacode.nic.in",
-    "text": "Section 420 (IPC): Cheating and dishonestly inducing delivery of property. NOTE: The Indian Penal Code 1860 has been repealed and replaced by the Bharatiya Nyaya Sanhita (BNS) 2023 effective 1st July 2024. Cheating with delivery of property is now codified under Section 318(4) of Bharatiya Nyaya Sanhita, 2023. Offenses committed on or after July 1, 2024 are charged under BNS 2023."
+    "text": "Commentary on IPC Section 420: The Indian Penal Code, 1860 was replaced by the Bharatiya Nyaya Sanhita, 2023 effective 1 July 2024. Cheating with dishonest inducement to deliver property, formerly Section 420, is now covered by Section 318(4) of the BNS. This record is background only and should not be cited as operative law for offences committed on or after 1 July 2024."
   }
 ]
