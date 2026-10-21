@@ -33,9 +33,7 @@ const envSchema = z.object({
   OPENAI_EMBEDDING_MODEL: z.string().default('text-embedding-3-small'),
   OPENAI_CHAT_MODEL: z.string().default('gpt-4o-mini'),
 
-  RAZORPAY_KEY_ID: z.string().default(''),
-  RAZORPAY_KEY_SECRET: z.string().default(''),
-  RAZORPAY_WEBHOOK_SECRET: z.string().default(''),
+
 
   PLATFORM_COMMISSION_PERCENT: z.coerce.number().min(0).max(100).default(15),
   GST_RATE_PERCENT: z.coerce.number().default(18),
